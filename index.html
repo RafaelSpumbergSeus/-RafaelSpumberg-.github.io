@@ -3,10 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Meu Portifólio</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:lenar-gradient(toright,#4facfe, #00f2fe);
+            color:#333;
+        }   
+        header{
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            margin: 0;
+        }
+        nav{
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: #007acc;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: #005f99;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: #555;
+        }
+    </style>   
 </head>
 <body>
-    <h1>Bem-vindo ao meu site!</h1>
-    <p>Este é um site hospedado no GitHub Pages.</p>
+    <header>
+        <h1>Bem-vindo ao meu portifólio</h1>    
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Informações pessoais melhorar depois</p>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <ul>
+<!--                 <li><a href="https://github.com/seu-usuario/projeto1" target="_blank">Projeto 1</a></li>
+                <li><a href="https://github.com/seu-usuario/projeto2" target="_blank">Projeto 2</a></li>
+                <li><a href="https://github.com/seu-usuario/projeto3" target="_blank">Projeto 3</a></li> -->
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode entrar em contato comigo atrvés dos seguintes links:</p>
+            <a href ="https://www.linkedin.com/in/rafael-spumberg/" target= "_blank"></a>
+            </h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rafael Spumberg. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
